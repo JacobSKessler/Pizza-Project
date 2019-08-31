@@ -24,6 +24,7 @@ function getReceipt() {
     console.log(selectedSize+" = $"+sizeTotal+".00");
     console.log("siza text1: "+text1);
     console.log("subtotal: $"+runningTotal+".00");
+    getTopping(runningTotal, text1);
 };
 
 function getTopping(runningTotal,text1) {
